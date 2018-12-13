@@ -24,7 +24,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <tomee.version>7.0.2</tomee.version>
         <java.version>1.8</java.version>
     </properties>
 
@@ -54,12 +53,6 @@
     </parent>
 
     <dependencies>
-        <dependency>
-            <groupId>org.apache.tomee</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>7.0</version>
-            <scope>provided</scope>
-        </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
